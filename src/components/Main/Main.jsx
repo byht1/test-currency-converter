@@ -1,5 +1,11 @@
 import React from 'react';
-import { Title, TitleDecoration, WraperMain, CalcBox } from './Main.styled';
+import {
+  Title,
+  TitleDecoration,
+  WraperMain,
+  CalcBox,
+  Section,
+} from './Main.styled';
 import { Container } from '../../App.styled';
 import { Calc } from './Calc/Calc';
 import { Banks } from './Banks/Banks';
@@ -7,7 +13,7 @@ import { Banks } from './Banks/Banks';
 export const Main = () => {
   return (
     <main>
-      <section>
+      <Section>
         <Container>
           <Title>
             Курс <TitleDecoration>UAH</TitleDecoration> (гривні)
@@ -19,7 +25,7 @@ export const Main = () => {
             </CalcBox>
           </WraperMain>
         </Container>
-      </section>
+      </Section>
     </main>
   );
 };

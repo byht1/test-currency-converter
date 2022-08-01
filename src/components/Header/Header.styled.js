@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { BsEmojiSunglassesFill } from 'react-icons/bs';
 
 export const HeaderBox = styled.header`
   position: relative;
@@ -40,7 +41,7 @@ export const Button = styled.button`
     border 250ms linear;
 `;
 
-export const Colo = styled.div`
+export const Сircle = styled(BsEmojiSunglassesFill)`
   position: absolute;
   top: 50%;
   left: 1px;
@@ -49,8 +50,8 @@ export const Colo = styled.div`
   transform: ${prop =>
     prop.cheked ? 'translate(90%, -50%)' : 'translate(0, -50%)'};
   border-radius: 50%;
-  background-color: var(--togle);
+  fill: var(--togle);
   transition: transform 250ms linear;
   transition: color 250ms linear, background-color 250ms linear,
-    border 250ms linear;
+    border 250ms linear, transform 250ms linear;
 `;

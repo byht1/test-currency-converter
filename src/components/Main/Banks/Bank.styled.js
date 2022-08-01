@@ -29,6 +29,12 @@ export const Table = styled.table`
   border-collapse: collapse;
   transition: color 250ms linear, background-color 250ms linear,
     border 250ms linear;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 400;
+  color: var(--text-table-header);
 `;
 
 export const Th = styled.th`

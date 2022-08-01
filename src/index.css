@@ -9,8 +9,10 @@ html[dark-theme='wihte'] {
   --background: #50d4c3;
   --text-dark: #fff;
   --logo-dark: #fff;
+  --text-table-header: #ffffff;
   --shadow: rgba(255, 255, 255, 0.92);
   --togle: #ffffff;
+  --icon: #000000;
 }
 
 html[dark-theme='dark'] {
@@ -20,8 +22,15 @@ html[dark-theme='dark'] {
   --background: #419fd9;
   --text-dark: #757575;
   --logo-dark: #000000;
+  --text-table-header: #000000;
   --shadow: rgba(0, 0, 0, 0.92);
   --togle: #000000;
+  --icon: #ffffff;
+}
+
+option {
+  background-color: var(--topic-dark);
+  border-color: var(--border-dark);
 }
 
 * {

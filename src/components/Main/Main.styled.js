@@ -1,5 +1,12 @@
 import styled from 'styled-components';
 
+export const Section = styled.section`
+  min-height: calc(100vh - 71px);
+  padding: 30px 0;
+  display: flex;
+  align-items: center;
+`;
+
 export const Title = styled.h2`
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -16,7 +23,7 @@ export const WraperMain = styled.div`
   @media screen and (min-width: 1000px) {
     margin: 30px 0 0 0;
     display: grid;
-    grid-template-columns: 550px 1fr;
+    grid-template-columns: 550px 550px;
     grid-auro-rows: 1fr;
     align-items: center;
     gap: 50px;

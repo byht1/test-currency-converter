@@ -1,5 +1,5 @@
 import React, { useState, useLayoutEffect } from 'react';
-import { HeaderBox, Logo, Button, Colo, BoxButton } from './Header.styled';
+import { HeaderBox, Logo, Button, Сircle, BoxButton } from './Header.styled';
 
 export const Header = () => {
   const [cheked, setCheked] = useState(true);
@@ -25,7 +25,7 @@ export const Header = () => {
       <Logo>CurrencyCalculator</Logo>
       <BoxButton>
         <Button onClick={themeTogle}>
-          <Colo cheked={cheked} />
+          <Сircle cheked={cheked} />
         </Button>
       </BoxButton>
     </HeaderBox>
