@@ -34,13 +34,9 @@ export const serverNbu = async () => {
     'https://bank.gov.ua/NBUStatService/v1/statdirectory/exchange?json';
   const server = await axios.get(serverDataURL1);
   const data = await server.data;
-  const dataFilter = data.filter(x => {
-    for (const id of idName) {
-      if (x.r030 === id) {
-        return x;
-      }
-    }
-  });
+  const dataFilter = data.filter(
+    x => x.r030 === idName[0] || x.r030 === idName[1]
+  );
 
   const neeData = newObjNBY(dataFilter);
 
@@ -66,6 +62,7 @@ export const serverMonoBank = async () => {
   const serverDataURL = 'https://api.monobank.ua/bank/currency';
   const server = await axios.get(serverDataURL);
   const data = await server.data;
+  // eslint-disable-next-line array-callback-return
   const dataFilter = data.filter(x => {
     for (let i = 0; i < idName.length; i += 1) {
       if (x.currencyCodeA === idName[i] && x.currencyCodeB === 980) {
