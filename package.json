@@ -2,7 +2,7 @@
   "name": "test-currency-converter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "byht1.github.io/test-currency-converter/",
+  "homepage": "https://byht1.github.io/test-currency-converter/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
