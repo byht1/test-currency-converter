@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/byht1.github.io/test-currency-converter/static/css/main.6bed8cba.css",
+    "main.js": "/byht1.github.io/test-currency-converter/static/js/main.e64006c2.js",
+    "index.html": "/byht1.github.io/test-currency-converter/index.html",
+    "main.6bed8cba.css.map": "/byht1.github.io/test-currency-converter/static/css/main.6bed8cba.css.map",
+    "main.e64006c2.js.map": "/byht1.github.io/test-currency-converter/static/js/main.e64006c2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6bed8cba.css",
+    "static/js/main.e64006c2.js"
+  ]
+}
