@@ -1,3 +1,12 @@
+import { Header } from 'components/Header/Header';
+import { Main } from 'components/Main/Main';
+import { Box } from './App.styled';
+
 export const App = () => {
-  return <div>React homework template</div>;
+  return (
+    <Box>
+      <Header />
+      <Main />
+    </Box>
+  );
 };

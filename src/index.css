@@ -1,4 +1,28 @@
 @import-normalize; /* bring in normalize.css styles */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+html[dark-theme='wihte'] {
+  --header-color: #50d4c3;
+  --topic-dark: #33393f;
+  --border-dark: #50d4c3;
+  --background: #50d4c3;
+  --text-dark: #fff;
+  --logo-dark: #fff;
+  --shadow: rgba(255, 255, 255, 0.92);
+  --togle: #ffffff;
+}
+
+html[dark-theme='dark'] {
+  --header-color: #419fd9;
+  --topic-dark: #ffffff;
+  --border-dark: #419fd9;
+  --background: #419fd9;
+  --text-dark: #757575;
+  --logo-dark: #000000;
+  --shadow: rgba(0, 0, 0, 0.92);
+  --togle: #000000;
+}
 
 * {
   box-sizing: border-box;
