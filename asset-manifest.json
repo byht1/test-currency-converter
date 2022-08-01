@@ -1,13 +1,16 @@
 {
   "files": {
-    "main.css": "/byht1.github.io/test-currency-converter/static/css/main.6bed8cba.css",
-    "main.js": "/byht1.github.io/test-currency-converter/static/js/main.e64006c2.js",
+    "main.css": "/byht1.github.io/test-currency-converter/static/css/main.d9f10051.css",
+    "main.js": "/byht1.github.io/test-currency-converter/static/js/main.85940053.js",
+    "static/media/icon-mvf.svg": "/byht1.github.io/test-currency-converter/static/media/icon-mvf.a8f3af0f7b82e1e3a8ded0a16ddc036e.svg",
+    "static/media/NBU.svg": "/byht1.github.io/test-currency-converter/static/media/NBU.8f4089938eced17dd86ea6adb6c41294.svg",
+    "static/media/icon-mono.svg": "/byht1.github.io/test-currency-converter/static/media/icon-mono.9bd30ca833b4eb87a3a07f784cd67cbb.svg",
     "index.html": "/byht1.github.io/test-currency-converter/index.html",
-    "main.6bed8cba.css.map": "/byht1.github.io/test-currency-converter/static/css/main.6bed8cba.css.map",
-    "main.e64006c2.js.map": "/byht1.github.io/test-currency-converter/static/js/main.e64006c2.js.map"
+    "main.d9f10051.css.map": "/byht1.github.io/test-currency-converter/static/css/main.d9f10051.css.map",
+    "main.85940053.js.map": "/byht1.github.io/test-currency-converter/static/js/main.85940053.js.map"
   },
   "entrypoints": [
-    "static/css/main.6bed8cba.css",
-    "static/js/main.e64006c2.js"
+    "static/css/main.d9f10051.css",
+    "static/js/main.85940053.js"
   ]
 }
